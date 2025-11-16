@@ -1,0 +1,18 @@
+{
+  "name": "mbng-whatsapp-server",
+  "version": "1.0.0",
+  "description": "WhatsApp Server for MBNG",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.21",
+    "@supabase/supabase-js": "^2.39.0",
+    "express": "^4.18.2",
+    "pino": "^8.16.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
